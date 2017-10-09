@@ -1,0 +1,64 @@
+ДЗ:
+   TCP:	Программа, котораяя слушает 2 порта (5001 и 5002) на всех ip, принадлежащих своему компу, и перекидывает их на 2 других IP. 
+	Полученный текст отправляет в текстовый файл (out.txt) (from - _ to - _ : ___)
+
+
+List<TcpListener> listeners = new List<TcpListener>();
+            List<TcpClient> mainClients = new List<TcpClient>();
+            List<NetworkStream> mainStreams = new List<NetworkStream>();
+            List<TcpClient> clients = new List<TcpClient>();
+            List<NetworkStream> streams = new List<NetworkStream>();
+
+            try
+            {
+                IPAddress localIp = IPAddress.Parse("127.0.0.1");
+
+                listeners.Add(new TcpListener(localIp, 5001));
+                listeners.Add(new TcpListener(localIp, 5002));
+
+                foreach (TcpListener listener in listeners)
+                {
+                    listener.Start();
+                    mainClients.Add(listener.AcceptTcpClient());
+                }
+
+                foreach (TcpClient mainClient in mainClients)
+                {
+                    mainStreams.Add(mainClient.GetStream());
+                }
+
+                while (true)
+                {
+                    Console.WriteLine("Ожидание подключений... ");
+
+                    foreach (TcpListener listener in listeners)
+                    {
+                        clients.Add(listener.AcceptTcpClient());
+                        Console.WriteLine("Подключен клиент. Выполнение запроса...");
+                    }
+
+                    foreach (TcpClient client in clients)
+                    {
+                        streams.Add(client.GetStream());
+                    }
+                    byte[] data = null;
+                    int numberOfBytesRead = streams[0].Read(data, 0, data.Length);
+                    
+
+                    mainStreams[0].Write(data, 0, numberOfBytesRead);
+
+                    //client.Close();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                foreach (TcpListener listener in listeners)
+                {
+                    if (listener != null)
+                        listener.Stop();
+                }
+            }

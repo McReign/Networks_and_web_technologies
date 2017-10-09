@@ -1,0 +1,14 @@
+C:\Users\McReign\Desktop\TCPServer\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\McReign\Desktop\TCPServer\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\McReign\Desktop\TCPServer\TCPServer\bin\Debug\TCPServer.pdb
+C:\Users\McReign\Desktop\TCPServer\TCPServer\obj\Debug\TCPServer.csprojResolveAssemblyReference.cache
+C:\Users\McReign\Desktop\TCPServer\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\McReign\Desktop\TCPServer\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\McReign\Desktop\TCPServer\TCPServer\obj\Debug\TCPServer.pdb
+C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\bin\Debug\TCPServer.pdb
+C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\obj\Debug\TCPServer.csprojResolveAssemblyReference.cache
+C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\obj\Debug\TCPServer.pdb
