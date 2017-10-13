@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="FirstServer.cs" />
     <Compile Include="SecondServer.cs" />
-    <Compile Include="Server.cs" />
+    <Compile Include="MainServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

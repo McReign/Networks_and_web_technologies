@@ -12,3 +12,10 @@ C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\obj\Debug\TCPServer.csprojRe
 C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
 C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\obj\Debug\TCPServer.exe
 C:\Users\McReign\YandexDisk\LoD\TCPServer\TCPServer\obj\Debug\TCPServer.pdb
+C:\Users\McReign.DESKTOP-PIGOJ9O\YandexDisk\LoD\Сети и веб технологии\Networks_and_web_technologies\TCPServer\TCPServer\obj\Debug\TCPServer.csprojResolveAssemblyReference.cache
+C:\Users\McReign.DESKTOP-PIGOJ9O\YandexDisk\LoD\Сети и веб технологии\Networks_and_web_technologies\TCPServer\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\McReign.DESKTOP-PIGOJ9O\YandexDisk\LoD\Сети и веб технологии\Networks_and_web_technologies\TCPServer\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\McReign.DESKTOP-PIGOJ9O\YandexDisk\LoD\Сети и веб технологии\Networks_and_web_technologies\TCPServer\TCPServer\obj\Debug\TCPServer.pdb
+C:\Users\McReign.DESKTOP-PIGOJ9O\YandexDisk\LoD\Сети и веб технологии\Networks_and_web_technologies\TCPServer\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\McReign.DESKTOP-PIGOJ9O\YandexDisk\LoD\Сети и веб технологии\Networks_and_web_technologies\TCPServer\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\McReign.DESKTOP-PIGOJ9O\YandexDisk\LoD\Сети и веб технологии\Networks_and_web_technologies\TCPServer\TCPServer\bin\Debug\TCPServer.pdb
